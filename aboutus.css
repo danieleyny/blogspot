@@ -1,0 +1,151 @@
+body {
+    background-color: rgb(19, 18, 18);
+}
+ .text1 {
+    color: white;
+    font-size: 56px;
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 50%;
+    Width: 70%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  a {
+    background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-position: 0 100%;
+    background-size: auto 6px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+  }
+  .underlink {
+    color: lightblue; 
+    height: 650px;
+  }
+  .underlink:hover {
+    background-position: 0 100%;
+    background-size: auto 6px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  }
+  * {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: black;
+    width:100%;
+    font-size: 24px;
+    border-bottom: solid white 1px;
+  
+  }
+  .shopbutton {
+    background-color: black;
+    height: 55px;
+    width: 155px;
+    font-size: 19px;
+    color: whitesmoke;
+    font-family: 'ZCOOL XiaoWei', serif;
+    margin-right: 50px;
+  }
+  .navlinks {
+    list-style: none;
+    display: flex;
+  }
+  .navlinks li {
+    display: inline-block;
+    padding: 0px 15px;
+    
+  }
+  .navlinks li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: white;
+    padding: 30px 12px;
+    font-size: 14px;
+    font-family: 'ZCOOL XiaoWei', serif;
+
+  }
+  .shopbutton:hover {
+    background-color: lightblue;
+    color: rgb(78, 76, 76);
+  }
+  .navlinks li a:hover {
+    color: rgb(78, 76, 76);
+    background-color: rgb(173, 216, 230);
+  }
+  button {
+    padding: 9px 25px;
+    background-color: rgba(96, 219, 250,1);
+    border:none;
+    border-radius: 30%;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  .titleedits {
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: rgb(226, 211, 211);
+    font-size: 32.5px;
+}
+.smalltitleedit {
+    color:rgb(141, 106, 106);
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-size: 22px;
+}
+.slideshowimg {
+    width:100%;
+    height:15px;
+}
+
+
+
+
+
+
+
+
+
+
+.infotitles{
+  color: rgb(255, 255, 255);
+  font-size: 26px;
+  text-align: center;
+  font-family: 'Ma Shan Zheng', cursive;
+  margin-top: 45px;
+}
+.moreinfo {
+  font-size: 18px;
+  color: rgb(114, 112, 100);
+  width: 850px;
+  text-align: center;
+  margin: 5px 9%;
+}
+.infopagetitle {
+  font-size: 45px;
+  font-family: 'Source Serif Pro', serif;
+  color:lightblue;
+  text-align: center;
+}
+.headshot{
+  height: 70px;
+  width: 85px;
+  margin: 15px 47%;
+  border-color: aliceblue;
+}
