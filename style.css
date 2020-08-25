@@ -48,7 +48,6 @@
     text-decoration: none;
     color: rgb(102, 100, 100);
     font-size: 18px;
-    display: inline-block;
 
 
    
@@ -90,6 +89,8 @@
   border-radius: 10%;
   border-color: rgb(151, 165, 168);
   background-color: transparent;
+  width: 130px;
+  height: 35px;
 }
 .blogbutton:hover {
   border-radius: 10%;
