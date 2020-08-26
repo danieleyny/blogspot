@@ -75,20 +75,27 @@
   color: rgb(38, 43, 44);
   padding: 8px;
 }
+.blogheader {
+  text-align: center;
+  width:180px;
+}
 .blogdate {
- color: #81888b;
- font-size: 10.5px;
- font-family: Georgia, 'Times New Roman', Times, serif;
+color: #81888b;
+font-size: 13px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-left: 18px;
+
  }
 .blogcontent {
   float: center;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 18px;
-
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  width: 450px;
+  margin: 10px;
 }
 .blogbutton {
   border-radius: 10%;
-  border-color: rgb(151, 165, 168);
+  border-color: rgb(221, 221, 221);
   background-color: transparent;
   width: 130px;
   height: 35px;
@@ -98,11 +105,11 @@
 }
 .blogbutton:hover {
   border-radius: 10%;
-  border-color: rgb(151, 165, 168);
-  background-color: #ad9f9fbb;
+  border-color: black;
+  background-color: #ad9f9fe0;
 }
 #more {display: none;}
-
+#more2 {display: none;}
 .right {
     background-color: #dad9d6;
     float: right;
