@@ -73,12 +73,13 @@ class TypeWriter {
 const navSlide = () => {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');
+    const wrapper = document.querySelector('.wrapper');
     const navLinks = document.querySelectorAll('.nav-links li');
     
     burger.addEventListener('click', ()=> {
         // TOGGLE NAV
         nav.classList.toggle('nav-active');
-
+        
     //ANIMATE LINKS 
     navLinks.forEach((link, index)=>{
         if(link.style.animation){
@@ -87,6 +88,9 @@ const navSlide = () => {
             link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + .5}s`;
         }
     });
+
+
+    
 
     //burger animation
     burger.classList.toggle('toggle');
@@ -152,6 +156,23 @@ function myFunction() {
     var dots = document.getElementById("dots4");
     var moreText = document.getElementById("more4");
     var btnText = document.getElementById("myBtn4");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more"; 
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less"; 
+      moreText.style.display = "inline";
+    }
+  }
+
+
+  function myFunction5() {
+    var dots = document.getElementById("dots5");
+    var moreText = document.getElementById("more5");
+    var btnText = document.getElementById("myBtn5");
   
     if (dots.style.display === "none") {
       dots.style.display = "inline";
