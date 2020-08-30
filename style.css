@@ -217,10 +217,10 @@ nav {
 
   }
   .contactusername {
-    font-size: 20px;
+    font-size: 25px;
     font-family: serif;
     font-weight: 350;
-    color: rgb(38, 43, 44);
+    color: #5D4954;
     padding: 10px;
   
   }
@@ -229,9 +229,17 @@ nav {
     width: 100px;
     height: 100px;
     border-radius: 25%;
+    transition: width 2s, height 2s, transform 2s;
+
  }
 
+ .contactavatar:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(360deg);
+  box-shadow: 0 0 55px rgb(163, 235, 255);
 
+}
 
 
 
@@ -400,6 +408,82 @@ it should always be at the center of the browser */
     padding: 25px;
   }
 
+  .form-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 65px;
+  }
+  
+.formtitle {
+font-size: 24px;
+border-top: 2px solid white;
+margin: 2px;
+padding: 25px;
+font-family: 'Times New Roman', Times, serif;
+color: #7b5a6d;
+text-transform: capitalize;
+}
+.formpg1 {
+font-size: 16px;
+font-family: 'Times New Roman', Times, serif;
+color: #000000;
+
+}
+.formwriting {
+  width: 250px;
+  background-color: rgb(250, 203, 211);
+  padding: 15px;
+  text-align: center;
+  border-color: white;
+  color: #7b5a6d;
+  text-transform: capitalize;
+  border-radius: 10%;
+}
+
+textarea {
+  width: 500px;
+  height: 125px;
+  background-color: rgb(250, 203, 211);
+  text-align: center;
+  border-color: white;
+  color: #7b5a6d;
+  margin-bottom: 35px;
+
+}
+
+.formsubmit {
+width: 100px;
+margin-left: 45%;
+padding: 10px;
+text-align: center;
+border-radius: 15%;
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+background-color: #7b5a6d;
+color: rgb(250, 203, 211);
+letter-spacing: 1px;
+ }
+ .formsubmit:hover {
+  background-color: #7b5a6dc6;
+  font-weight: bolder;
+ }
+
+
+
+
+ @media screen and (max-width: 812px){
+  .textarea {
+  width: 200px;
+  height: 125px;
+  background-color: rgb(250, 203, 211);
+  text-align: center;
+  border-color: white;
+  color: #7b5a6d;
+  margin-bottom: 35px;
+  }
+
+ }
 
   
 
